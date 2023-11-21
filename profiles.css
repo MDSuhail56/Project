@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=poppins:wght@300;400;500;600;700;800;900&display=swap');
+*{
+	margin: 0;
+	padding:0;
+
+box-sizing: border-box;
+	font-family: 'poppins', sans-serif;
+	
+}
+body{
+	top:50%;
+	left:50%;
+	font-family:sans-serif;
+	
+	
+	
+	background:#081b28;
+	color:#fff;
+}
+.header{
+	background: #081b28;
+	position:fixed;
+	top:0;
+	left:0;
+	width:100%;
+	padding: 20px 10%;
+	
+	display:flex;
+	justify-content:space-between;
+	align-items: center;
+	z-index:100;
+	
+	
+}
+
+.logo{
+	font-size:30px;
+	
+	color:#fff;
+	text-decoration:none;
+	font-weight:600;
+}
+.navbar a{
+	font-size:18px;
+	color:#fff;
+	text-decoration:none;
+	font-weight:500;
+	margin-left:25px;
+	transition:	0.3s;
+	
+}
+.navbar a:hover,
+.navbar a.active{
+	color:#0e95e5;
+	
+}
+.title-box{
+	text-align:center;
+	margin:100px auto 50px;
+	
+}
+.title-box p{
+margin-top:50px;
+width:85%;
+margin:auto;
+line-height:5px;	
+	
+}
+.team-row{
+	display:flex;
+	justify-content:space-between;
+	flex-wrap:wrap;
+}
+.profiles{
+	width:240px;
+	height:300px;
+	background:#081b28;
+	border-radius:4px; 
+	margin-bottom:30px;
+	box-shadow:0 10px 10px rgba(115,193,255,0.1);
+	padding:20px;
+	position:relative;
+	transition: background 0.5s;
+	
+}
+.profiles img{
+	width:100px;	
+	position:absolute;
+	top:10px;
+	border-radius:10px;
+	right:10px;
+	transition:0.6s;	
+}
+.socailacc img{
+	width:20px;
+		position:relative;
+	margin-top:60px auto 20px;
+	border-radius:3px;
+}
+.profiles  h4{
+	margin-top:95px;
+	margin-bottom:5px;
+	color:#2196f3;
+	 	
+}
+small{
+	color:#555;
+	
+}
+.socailacc{
+margin:40px auto 15px;
+text-align:center;
+text-decoration: none;
+text-shadow: #555;
+background:bold #0e95e5;
+word-spacing: 8px;
+border-radius: 8px;
+	
+
+}
+.profiles p{
+	color:#0e95e5;
+	text-align:center;
+	line-height:20px;
+	font-family:Times New Roman;
+	
+}
+.profiles img:hover{
+	width:220px;
+	transform:translateZ(0px);
+}
+.socailacc .fa{
+	margin:5px;
+	color: #fff;
+	cursor: pointer;
+}
+.team-row{
+	display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+width: 85%;
+margin: auto;
+}
+.profiles:hover{
+	background: #0e95e5;
+}
+.profiles:hover h4{
+	color: #fff;
+}
+.profiles:hover p{
+	color: #efefef;
+}
+.profiles:hover small{
+	color: #081b28;
+
+}
+.profiles:hover .socailacc{
+	background: #081b28;
+
+}
+.profiles:hover .socailacc .fa{
+	background: #2196f6;
+}
+.socailacc a{
+	text-decoration: none;
+	color: #efefef;
+}
+.types{
+	display: block;
+	position: static;
+	justify-content: center;
+	align-items: center;
+	
+}
+.types ul{
+	display: flex;
+}
+.types ul li{
+	padding: 10px 30px;
+}
+.types ul li a{
+	text-decoration: none;
+	color: #0e95e5;
+	background-color: transparent;
+	font-size: 20px;
+}
+a{
+	text-decoration: none;
+	color: #0e95e5;
+}

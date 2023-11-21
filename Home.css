@@ -1,0 +1,322 @@
+@import url('https://fonts.googleapis.com/css2?family=poppins:wght@300;400;500;600;700;800;900&display=swap');
+*{
+	margin: 0;
+	padding:0;
+
+box-sizing: border-box;
+	font-family: 'poppins', sans-serif;	
+}
+
+body{
+	background:#081b28;
+	color:#fff;
+}
+.header{
+	background: #081b28;
+	display:flex;
+	position:fixed;
+	top:0;
+	left:0;
+	width:100%;
+	padding: 20px 10%;
+	
+	display:flex;
+	justify-content:space-between;
+	align-items: center;
+	z-index:100;	
+}
+.logo{
+	
+	font-size:30px;
+	
+	color:#fff;
+	text-decoration:none;
+	font-weight:600;
+}
+
+.navbar a{
+	
+	font-size:18px;
+	color:#fff;
+	text-decoration:none;
+	font-weight:500;
+	margin-left:25px;
+	transition:	0.3s;
+	box-shadow: #0e95e5 ;
+}
+.navbar a:hover,
+.navbar a.active{
+	color:#0e95e5;
+}
+.home{
+	height:100vh;
+	display:flex;
+	align-items:center;
+	padding:0 10%;	
+}
+.home-content{
+	max-width:500px;
+	
+}
+.home-content h1{
+	font-size:45px;
+	font-weight:600;
+	
+}
+.home-content h3{
+	font-size:25px;
+	font-weight:600;
+	color:#0e95e5;
+}
+.home-content p{
+	font-size:15px;
+	margin:20px 0 15px;
+}
+.home-content .btn-box{
+	width:345px;
+	height:50px;
+}
+.btn-box a{
+	position:relative;
+	display:inline-flex;
+	justify-content:center;
+	align-items:center;
+	width:180px;
+	height:100%;
+	background:#0e95e5;
+	border:2px solid #0e95e5;
+	border-radius:8px;
+	font-weight:600;
+	color:black;
+	letter-spacing:1px;
+	text-decoration:none;
+	transition:0.3s;	
+}
+.btn-box a:hover{
+	background:transparent;
+	color:#0e95e5;
+}
+.home img{
+	margin: 10px 80px 10px;
+}
+.png{
+	display: flex;
+	margin-left: 120px;
+	width: 100px;
+	
+}
+.about{
+	
+	width: auto;
+	height: 1700px;
+	margin-left: 150px;
+	margin-right: 150px;
+	margin-top: 20px;
+}
+
+
+.raoimg{
+    width: 250px;
+	margin-left: 50px;
+	
+ }
+.raoinfo{
+	line-height: 30px;
+	font-size: 20px;
+	float: right;
+	width:70%;
+	text-align: left;
+	align-items: center;
+	margin-top:-200px;
+	
+}
+
+
+.vvsimg{
+	
+	margin-top: 150px;
+	width: 250px;
+	float: right;
+}
+.vvsinfo{
+	margin-top:150px;
+	width: 70%;
+	text-align: left;
+	align-items: center;
+	line-height: 30px;
+	border-radius:20px;
+	font-size: 20px;
+}
+.vvsimg img{
+	border-radius: 10px;
+}
+
+
+.chrimg{
+    width: 250px;
+	margin-top: 280px;
+}
+.chrinfo{
+	width: 70%;
+	float: right;
+	align-items: center;
+	text-align: left;
+	line-height: 30px;
+	font-size: 20px;
+	margin-top: -350px;
+	
+}
+
+
+
+.priimg{	
+	margin-top: 300px;
+	margin-left: 930px;
+	width: 250px;
+}
+.priinfo{
+	align-items: center;
+	text-align: left;
+	line-height: 30px;
+	font-size: 20px;
+	width: 60%;
+	margin-top: -200px;
+	
+}
+
+
+
+
+
+
+
+
+
+  
+.flexing{
+	display: flex;
+	justify-content: space-between;
+	padding: 40px;
+}
+
+.images img{
+	width: 40px;
+}
+.footer{
+	display: flex;
+	background: #053b5b;
+	height:220px;
+	width: 80%;
+	margin-left: 150px;
+	margin-top: 245px;
+	margin-bottom:20px;
+	overflow: hidden;
+
+}
+.underfooter1{
+	background: #040127;
+	text-align: center;
+	align-items: center;
+    
+	font-size: 25px;
+	width: 60%;
+	height: 230px;
+	line-height: 40px;
+	
+	
+}
+.underfooter2{
+	background: #13092e;
+	height: 230px;
+	width: 500px;
+	text-align: center;
+	font-size: 30px;
+	
+
+}
+
+.slideimg{
+	
+	width: 1250px;
+	height: 450px;
+	margin-left: 150px;
+	z-index: -1;
+    background-image: url("image/photo1.jpg");
+	animation: changeimage 15s linear infinite;
+	
+}
+@keyframes changeimage{
+	0% {
+		background-image: url("image/photo1.jpg");
+	}
+	25% {
+		background-image: url("image/photo2.jpg");
+	}
+	50% {
+		background-image: url("image/photo3.png");
+	}
+	75% {
+		background-image: url("image/photo4.png");
+	}
+   
+
+}
+
+.edit {
+background-color:#081b28;
+border-radius: 5px;
+line-height:25px;
+color: white;
+border-radius: 5px;
+height:30px;
+margin-left: 20px;
+width: 800px;
+}
+.imghead{
+	float: left;
+    border-radius:2px;
+}
+.text{
+	margin-left:60px;
+}
+
+.underfooter2{
+	color: #fff;
+}
+.footsocailacc{
+height: 40px;
+margin-top: 10px;	
+}
+.pro1{
+	
+	margin-top:30px;
+	width: 50%;
+	font-size: 15px;
+}
+.pro2{
+	
+	width: 50%;
+	float: right;
+	font-size: 15px;
+	margin-top: 30px;
+}
+.designby{
+	font-size: 18px;
+	height: 35px;
+	margin-top: 27px;
+	background: rgb(31, 27, 51);
+	color: white;
+}
+
+.get{
+	background:#08283b;
+	margin-top: 120px;
+	height: 50px;
+	font-size: 30px;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	color: #e4e4e4;
+}
+
+
